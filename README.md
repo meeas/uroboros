@@ -23,7 +23,7 @@ For the moment there are no binary releases and building from sources is the onl
 will install the binary in $GOPATH/bin):
 
     # make sure go modules are used
-    GO111MODULE=on go get github.com/evilsocket/uroboros/cmd/uro
+    go install github.com/evilsocket/uroboros/cmd/uro@latest
 
 To monitor by pid:
 
